@@ -146,20 +146,18 @@ body {
 }
 
 .container-card {
-    width: 1100px;
     padding-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    gap: 40px;
+    gap: 30px;
 }
 
 .card {
-    width: 500px;
+    width: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -174,7 +172,7 @@ body {
 }
 
 .card-info {
-    width: 370px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -193,4 +191,71 @@ body {
 
 .rodape {
     background-color: #49997c;
+    margin: 0 auto;
+}
+
+.container-box {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px
+}
+
+.box {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.box h4 {
+    font-size: 25px;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.box img {
+    width: 50px;
+}
+
+.line {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: #3f8e71;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    background-color: #49997c;
+    padding: 25px 0;
+}
+
+.copyright div {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
 }
