@@ -3,3 +3,77 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.topo .pousada {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.span-cor {
+    color: dodgerblue;
+}
+
+.topo a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.container-opacity {
+    width: 600px;
+    height: 250px;
+    background-color: rgba(0, 187, 151, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 1px #fff;
+    border-radius: 4px;
+}
+
+.conteudo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.conteudo-box h1 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.conteudo-box p {
+    color: #fff;
+    font-size: 32px;
+}
+
+.img-background {
+    height: 90vh;
+    background-image: url('assets/img-fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
