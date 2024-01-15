@@ -8,6 +8,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*Cabeçalho*/
 .topo {
     width: 100%;
     position: fixed;
@@ -38,48 +39,13 @@ body {
     font-size: 20px;
 }
 
-.container-opacity {
-    width: 600px;
-    height: 250px;
-    background-color: rgba(0, 187, 151, 0.5);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 2px 1px #fff;
-    border-radius: 4px;
-}
-
-.conteudo-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 45px;
-}
-
-.conteudo-box h1 {
-    font-size: 65px;
-    color: #fff;
-}
-
-.conteudo-box p {
-    color: #fff;
-    font-size: 32px;
-}
-
 .img-background {
-    height: 90vh;
+    height: 30vh;
     background-image: url('assets/img-fundo.jpg');
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .limitado {
@@ -96,26 +62,22 @@ body {
     color: #4b4e50;
 }
 
-.bem-vindo h2,
-.rota h2,
-.sobre h2 {
+.solt h2,
+.cas h2,
+.fam h2 {
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: normal;
 }
 
-.bem-vindo p,
-.rota p,
-.sobre p {
+.solt p,
+.cas p,
+.fam p {
     line-height: 40px;
     font-size: 18px;
 }
 
-.img-rooms img {
-    width: 370px;
-}
-
-.img-rooms {
+.container-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,72 +85,12 @@ body {
     gap: 35px;
 }
 
-.img-rooms div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #07b8ad;
+.container-img img {
+    width: 370px;
+    height: 250px;
 }
 
-.img-rooms a {
-    text-decoration: none;
-    display: flex;
-    padding: 20px 0;
-    color: #4b4e50;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.map iframe {
-    width: 100%;
-    height: 60vh;
-}
-
-.container-card {
-    padding-bottom: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.card {
-    width: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.card-img {
-    width: 110px;
-    height: 120px;
-}
-
-.card-img img {
-    width: 100%;
-    height: 100%;
-}
-
-.card-info {
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.card-info h3 {
-    font-size: 20px;
-    color: #4b4e50;
-}
-
-.card-info p {
-    font-size: 17px;
-    color: #4b4e50;
-}
-
+/*Rodapé*/
 .rodape {
     background-color: #49997c;
     margin: 0 auto;
