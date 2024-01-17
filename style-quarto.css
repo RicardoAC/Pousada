@@ -90,6 +90,35 @@ body {
     height: 250px;
 }
 
+
+/*Info dos quartos*/
+.title-h3 {
+    padding: 80px 0 30px 0;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.li-hidden {
+    visibility: hidden;
+}
+
+.list {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.list ul li {
+    line-height: 30px;
+}
+
+
 /*Rodapé*/
 .rodape {
     background-color: #49997c;
